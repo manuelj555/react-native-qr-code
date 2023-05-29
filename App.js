@@ -4,16 +4,15 @@ import { QRCodeScanner } from './src/components/QRCodeScanner';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hola JEJEJE</Text>
-      {/* <QRCodeScanner /> */}
+      <QRCodeScanner />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
-    // backgroundColor: '#fff',
+    flex: 1,
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
